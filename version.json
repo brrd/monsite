@@ -1,9 +1,15 @@
 {
-  "name": "// Nom du site",
-  "source": {
+  "name": "monsite",
+  "sources": [
+    {
     "url": "git@github.com:chapitreneuf/nova.git",
     "tag": "2.5.0"
-  },
-  "repository": "// Repo de la personnalisation du site",
+    },
+    {
+    "url": "git@github.com:brrd/foo.git",
+    "tag": "0.1.0"
+    }
+  ],
+  "repository": "git@github.com:brrd/monsite.git",
   "version": "1.0.0"
 }
