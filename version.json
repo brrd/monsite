@@ -3,11 +3,11 @@
   "sources": [
     {
     "url": "git@github.com:chapitreneuf/nova.git",
-    "tag": "2.5.0"
+    "tag": "2.5"
     },
     {
     "url": "git@github.com:brrd/foo.git",
-    "tag": "0.1.0"
+    "tag": "0.1"
     }
   ],
   "repository": "git@github.com:brrd/monsite.git",
