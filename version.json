@@ -10,6 +10,5 @@
     "tag": "0.1"
     }
   ],
-  "repository": "git@github.com:brrd/monsite.git",
-  "version": "1.0.0"
+  "repository": "git@github.com:brrd/monsite.git"
 }
