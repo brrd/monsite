@@ -8,16 +8,14 @@
  */
 
 /**
- * On appelle la macro de la dépendance foo : macros_foo.html
- */
-<USE MACROFILE="macros_foo.html" />
-
-/**
  * Initialisation des macros spécifiques au site.
  * Cette macro est appelée en dernier lors de l'initialisation des pages. Elle permet donc d'écraser n'importe quelle variable.
  * Options disponibles : https://github.com/chapitreneuf/nova/blob/master/default_options.html
  */
 <DEFMACRO NAME="CUSTOM_INIT">
+	<!--[ On appelle la macro de la dépendance foo : macros_foo.html ]-->
+	<USE MACROFILE="macros_foo.html" />
+
 	<!--[ Chemin vers le logo image du site. ]-->
 	<!--[ <LET VAR="site_logo_path" GLOBAL="1">tpl/public/images/logo.svg</LET> ]-->
 
